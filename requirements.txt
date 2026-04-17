@@ -1,0 +1,12 @@
+torch>=2.11.0
+torchvision>=0.26.0
+torchcodec>=0.11.1
+numpy>=2.4.0
+opencv-python-headless>=4.13.0
+gradio>=6.12.0
+plotly>=6.7.0
+safetensors>=0.7.0
+huggingface_hub>=1.11.0
+
+# transformers must be installed from git (VJepa2 support not yet in a stable release)
+transformers @ git+https://github.com/huggingface/transformers

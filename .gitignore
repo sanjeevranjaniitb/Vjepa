@@ -1,0 +1,133 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================
+# Virtual Environments
+# ========================
+.env
+.venv
+env/
+venv/
+ENV/
+.conda/
+
+# ========================
+# IDE / Editors
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# Jupyter / Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================
+# OS Generated
+# ========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ========================
+# ML / Model Artifacts
+# ========================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.onnx
+*.tflite
+wandb/
+runs/
+lightning_logs/
+mlruns/
+outputs/
+checkpoints/
+
+# ========================
+# Data & Media (large files)
+# ========================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.csv
+*.parquet
+*.arrow
+*.tar
+*.tar.gz
+*.zip
+*.gz
+*.bz2
+
+# ========================
+# Logs & Temp
+# ========================
+*.log
+logs/
+tmp/
+temp/
+
+# ========================
+# Secrets & Credentials
+# ========================
+*.pem
+*.key
+*.crt
+*.env.local
+*.env.production
+.env.*
+secrets/
+credentials/
+
+# ========================
+# Coverage & Testing
+# ========================
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ========================
+# Documentation Build
+# ========================
+docs/_build/
+site/
+
+# ========================
+# Project-specific overrides
+# ========================
+# Keep sample videos and precomputed cache in repo
+!sample_videos/*.mp4
+!sample_videos/precomputed_cache.pt
